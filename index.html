@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The personal website of Timothy Street—writing, research, and practical projects."
+    />
+    <title>Timothy Street</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Timothy Street home">TS</a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow">Writer · Researcher · Builder</p>
+        <h1 id="hero-title">Clear thinking.<br />Meaningful work.</h1>
+        <p class="hero-copy">
+          I explore difficult questions, build useful ideas, and turn complex
+          subjects into writing people can understand.
+        </p>
+        <a class="button" href="#work">Explore my work</a>
+      </section>
+
+      <section class="about" id="about" aria-labelledby="about-title">
+        <p class="section-number">01</p>
+        <div>
+          <h2 id="about-title">About</h2>
+          <p>
+            I’m Timothy Street. My interests sit at the meeting point of
+            investigation, practical problem-solving, and independent thought.
+            This site is a home for the work that grows from those interests.
+          </p>
+        </div>
+      </section>
+
+      <section class="work" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <p class="section-number">02</p>
+          <h2 id="work-title">Current work</h2>
+        </div>
+        <div class="cards">
+          <article>
+            <span>Writing</span>
+            <h3>Ideas worth examining</h3>
+            <p>Evidence-led articles that ask direct questions and follow the facts.</p>
+          </article>
+          <article>
+            <span>Research</span>
+            <h3>Signals in the noise</h3>
+            <p>Careful investigation of public affairs, history, and unexplained events.</p>
+          </article>
+          <article>
+            <span>Projects</span>
+            <h3>Useful things, simply made</h3>
+            <p>Practical tools and small businesses designed to solve real problems.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <p class="section-number">03</p>
+        <div>
+          <h2 id="contact-title">Let’s connect.</h2>
+          <p>This is the beginning. More writing and project links are coming soon.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Timothy Street</p>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+  </body>
+</html>
